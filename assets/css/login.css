@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    background-image: url(../img/hall.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 微軟正黑體 Light;
+}
+/*選單*/
+/*選單*/
+nav{
+    z-index: 100;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    height: 60px;
+    background-color: rgba(66, 66, 65, 0.88);
+}
+
+nav>.logo{
+    font-size: 27px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    width: 110px;
+    height: 35px;
+    float: left;
+    flex: auto;
+}
+
+nav>.product,
+.aboutus,
+.login {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 17px;
+    width: 110px;
+    height: 35px;
+    float: right;
+    flex: none;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #dfdfdb;
+}
+
+.nav a:hover{
+    text-decoration: none;
+    color: #F3CA8E;
+}
+
+.search{
+    margin-top: 12px;
+    font-size: 20px;
+    text-align: center;
+    height: 35px;
+    float: right;
+    flex: none;
+}
+
+.search1{
+    line-height: 22px;
+    position: relative;
+    
+}
+
+nav>.car{
+    width: 38px;
+    padding: 10px;
+    height: 30px;
+    text-align: center;
+    float: right;
+    flex: none;
+}
+
+.car_img{
+    margin-top: 5px;
+    margin-left: -10px;
+}
+
+.member_img{
+    margin-top: 8px;
+    margin-right: -10px;
+}
+/* 登入主區 */
+.login_main {
+	margin-top: 10%;
+	width: 600px;
+	height: 450px;
+    margin-left: auto;margin-right: auto;
+    background-image: url(../img/letter.jpg);
+    color: #fff;
+    border-radius: 2%;
+    box-shadow:0 0 50px #000;
+}
+
+.form{
+    margin-left: 8%;
+    padding-top: 20px;
+}
+
+form h2 {
+    text-align: center;
+    margin-left: -8%;
+}
+
+label {
+	line-height: 2;
+    font-size: larger;
+}
+
+.inputext{
+    text-align: center;
+    width: 84%;
+    border-bottom: 0.5px solid #b82a06;
+}
+
+.ipt {
+	width: 98%;
+	line-height: 2;
+	border-radius: 5px;
+    outline: invert;
+    outline-style: none;/*點擊時的框線消失*/
+    outline-width: 0;
+    border: 0;
+    background-color: transparent;/*透明*/
+    /* border-style: none;
+    outline-color: transparent;
+    text-shadow: none; */
+}
+
+.btnmain {
+	margin-top: 20px;
+    text-align: center;
+    margin-left: -8%;
+}
+
+/* button, input[type="snbmit"]{
+    background:url(../img/) no-repeat;
+} */
+
+.btn {
+	font-size: 20px;
+	border-radius: 5px;
+    margin: 0 10px;
+	background-color: #523804;
+    border: none;
+	width: 150px;
+	padding: 10px 0;
+	color: #fff;
+	cursor: pointer;
+}
+
+.gosignup {
+	padding-left: 5%;
+
+}
+
+.gosignup a:link {
+	text-decoration: none;
+    color: #fff;
+}
+
+.gosignup a:visited {
+	text-decoration: underline;
+    color: #fff;
+}
+
+.footerMain{
+    margin:230px auto 20px;
+    width: 500px;
+    text-align: center;
+    font-size: 1px;
+}

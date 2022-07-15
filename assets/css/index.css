@@ -1,0 +1,234 @@
+.index_body{
+    margin: 0;
+    background-image: url(../img/ollivander.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 微軟正黑體 Light;
+    -webkit-font-smoothing:antialiased;
+}
+
+
+/*選單*/
+nav{
+    z-index: 100;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    height: 60px;
+    background-color: rgba(66, 66, 65, 0.88);
+}
+
+nav>.logo{
+    font-size: 27px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    width: 110px;
+    height: 35px;
+    float: left;
+    flex: auto;
+}
+
+nav>.product,
+.aboutus,
+.login {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 17px;
+    width: 110px;
+    height: 35px;
+    float: right;
+    flex: none;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #dfdfdb;
+}
+
+.nav a:hover{
+    text-decoration: none;
+    color: #F3CA8E;
+}
+
+.search{
+    margin-top: 12px;
+    font-size: 20px;
+    text-align: center;
+    height: 35px;
+    float: right;
+    flex: none;
+}
+
+.search1{
+    line-height: 22px;
+    position: relative;
+    
+}
+
+nav>.car{
+    width: 38px;
+    padding: 10px;
+    height: 30px;
+    text-align: center;
+    float: right;
+    flex: none;
+}
+
+.car_img{
+    margin-top: 5px;
+    margin-left: -10px;
+}
+
+.member_img{
+    margin-top: 8px;
+    margin-right: -10px;
+}
+
+/*廣告*/
+
+.margin{
+    height: 570px;
+    width: 1000px;
+    /* margin-left: 100px;
+    margin-right: 30px; */
+    margin: auto;
+    margin-top: 50px;
+}
+
+#advertis{
+	width:1000px;
+    height: 666px;
+	margin:0 auto;
+}
+/*圖片輪播*/
+#wrapper {
+	display: block;
+
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#slide {
+	position: relative;
+	overflow: hidden;
+	height: 570px;
+
+
+}
+#slide ul{
+    margin-left: -40px;
+}
+/* #slide{
+	position:relative;
+	overflow:hidden;
+	height:570px;
+} */
+
+#slide ul{
+	position:absolute;
+	width:4000px;
+}
+
+#slide li{
+	float:left;
+	width:1000px;
+	list-style-type:none;
+}
+
+hr{
+    background-color:  #545452;
+    height: 1px;
+    border: none;
+    width: auto;
+    margin-top: 15px;
+   
+}
+
+/*熱銷商品*/
+.index_hot{
+    width: 1250px;
+    
+    margin: 0 auto;
+}
+.back{
+    display: flex;
+    height: 300px;
+    margin-top: 10px;
+}
+
+.hot{
+    margin-top: 18px;
+    margin-left: 70px;
+    font-size: 24px;
+    color: #d7724a;
+    font-weight: bolder;
+}
+
+.row{
+    margin-left: 70px;
+    margin-right: 30px;
+    
+}
+
+.pic{
+    margin-right: 60px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.pic:hover{
+    transform: scale(1.2);
+}
+
+.down{
+    height: 300px;
+}
+
+.row_one{
+    margin-left: 170px;
+    margin-right: 30px;
+}
+
+.more{
+    width: 100px;
+    height: auto;
+    position: relative;
+    top: -50px;
+    margin: 0 auto;
+    color: #E1DEDC;
+    border: 2px solid #E1DEDC;
+    border-radius: 5px;
+    padding: auto;
+}
+
+.more_word{
+    text-align: center;
+    font-weight: bolder;
+    font-family: monospace font ;
+}
+
+.more1 :hover{
+    background-color: white;
+    color: #816f53;
+    transition: 0.4s;
+}
+
+.btn{
+    margin-top: 30px;
+    height: 100px;
+    background-color: transparent;
+}
+
+.footerMain{
+    margin:50px auto;
+    width: 500px;
+    text-align: center;
+    font-size: 1px;
+}

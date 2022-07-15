@@ -1,0 +1,417 @@
+body{
+    margin: 0;
+    /* background-image: url(../img/hall.jpg); */
+    background-color: #B1ABA3;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 微軟正黑體 Light;
+}
+/*選單*/
+nav{
+    z-index: 100;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    height: 60px;
+    background-color: rgba(66, 66, 65, 0.88);
+}
+
+nav>.logo{
+    font-size: 27px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    width: 110px;
+    height: 35px;
+    float: left;
+    flex: auto;
+}
+
+nav>.product,
+.aboutus,
+.login {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 17px;
+    width: 110px;
+    height: 35px;
+    float: right;
+    flex: none;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #dfdfdb;
+}
+
+.nav a:hover{
+    text-decoration: none;
+    color: #F3CA8E;
+}
+
+.search{
+    margin-top: 12px;
+    font-size: 20px;
+    text-align: center;
+    height: 35px;
+    float: right;
+    flex: none;
+}
+
+.search1{
+    line-height: 22px;
+    position: relative;
+    
+}
+
+nav>.car{
+    width: 38px;
+    padding: 10px;
+    height: 30px;
+    text-align: center;
+    float: right;
+    flex: none;
+}
+
+.car_img{
+    margin-top: 5px;
+    margin-left: -10px;
+}
+
+.member_img{
+    margin-top: 8px;
+    margin-right: -10px;
+}
+
+/* 回上頁 */
+.back{
+    width: 800px;
+    margin: 5% auto 10px auto;
+}
+#back{
+    background-color: transparent;
+    border: none;
+    color: #f6f6f6;
+}
+/* 介紹 */
+.introMain{
+    width: 800px;
+    margin: auto;
+    /* margin-top: 5%; */
+    color: #797269;
+}
+
+.togaysou{
+    text-align: center;
+    display: flex;
+    background-color: #f6f6f6;
+    padding-bottom: 2%;
+    border-radius: 2px;
+    margin-bottom: 2%;
+}
+
+.introImg{
+    width: 50%;
+}
+
+.introImg img{
+    padding-top: 5%;
+}
+
+.tittle{
+    width: 50%;
+    text-align: left;
+}
+
+h1{
+    font-size: 200%;
+    margin: 0;
+    padding-top: 3%;
+}
+
+.tittle label{
+    font-size: 10%;
+}
+
+.www{
+    margin-bottom: 5%    ;
+}
+
+.numbut{
+    border: none;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-color: #797269;
+    color: #fff;
+}
+
+.number{
+    border: none;
+    outline: none;
+    text-align: center;
+    height: 16px;
+    width: 25px;
+}
+
+.tocar{
+    margin-left: 5%;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #797269;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.tocar:hover{
+    border: 0.5px solid #797269;
+    background-color: #f6f6f6;
+    color: #797269; 
+}
+
+.intro{
+    background-color: #f6f6f6;
+    padding: 2%;
+    margin-bottom: 2%;
+    border-radius: 2px;
+}
+
+.intro:hover h3{
+    letter-spacing: 3px;
+}
+
+.intro h3{
+    background-color: #f6f6f6;
+    width: 100px;
+    margin: 0;
+    text-align: center;
+    margin-left: 2%;
+    position: relative;
+    top: 10px;
+}
+
+.iOutline{
+    border:1px solid #000;
+    padding: 5% 0;
+    border-radius: 5px;
+}
+
+.ios{
+    margin-left: 15px;
+}
+/* 圖彈出特效 */
+.item {
+    max-width: 500px;
+    background: transparent;
+    display: none;
+    position: relative;
+    /* -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15); */
+    border-radius: 3px;
+  }
+  .item-close {
+    cursor: pointer;
+    right: 5px;
+    top: 5px;
+    position: absolute;
+    background: #222;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 18px;
+    height: 26px;
+    line-height: 22px;
+    text-align: center;
+    width: 26px;
+  }
+  .item img{
+      width:100%;
+      height: auto;
+  }
+/*留言板*/
+.commentMain{
+    display: flex;
+}
+
+.commentInport{
+    width: 390px;
+    background-color: #fff;
+    padding: 2%;
+    margin-right: 1%;
+}
+
+.commentShow{
+    height: 375px;
+    overflow-y: auto;
+    width: 390px;
+    background-color: #fff;
+    margin-left: 1%;
+    padding: 2%;
+}
+
+.full_star {
+    width: 80%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #a85;
+}
+
+.text {
+    flex: none;
+    font-size: 30px;
+    color: #fcf5e7;
+}
+
+.commentInport h2 {
+    text-align: center;
+    font-size: 2em;
+    margin: 10px;
+}
+
+.commentInport .name {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    border: none;
+    border-bottom: 1.5px solid #797269;
+    margin-bottom: 10px;
+}
+
+.name .text {
+    width: auto;
+    flex: none;
+    color: #797269;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.name input {
+    flex: auto;
+    background: 0 0;
+    color: #797269;
+    font-size: 16px;
+    border: none;
+}
+
+.name input:focus {
+    background: 0 0;
+    color: #797269;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+.comment_title {
+    font-size: 16px;
+    color: #797269;
+    margin-top: 10px;
+}
+
+form textarea {
+    margin-bottom: 5px;
+    width: 98%;
+    font-size: 16px;
+    color: #797269;
+    border: 1.5px solid #797269;
+    background: 0 0;
+    outline: none;
+    resize: none;
+    overflow: auto;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.submit_rating {
+    cursor: pointer;
+    flex: none;
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    color: gray;
+    overflow: hidden;
+    font-size: 30px;
+    text-shadow: 0px 1px 0 #999;
+}
+
+.submit_rating .full_star {
+    width: 0%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #797269;
+}
+
+#comsub{
+    margin:0;
+    width: 100%;
+}
+
+.ccc{
+    border: 0.5px solid #797269;
+    border-radius: 5px;
+    padding-left: 2%;
+    margin-bottom: 15px;
+}
+
+/* 推薦商品 */
+.h4{
+    font-size: 30px;
+    color: #fff;
+    width: 800px;
+    margin: auto;
+}
+h4{
+    margin: 8px 0;
+}
+.list{
+    display: flex;
+    height: 25%;
+    width: 800px;
+    margin: auto;
+}
+
+.lattice{
+    width: 30%;
+    border-radius: 2px;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10%;
+    background-color: #f6f6f6;
+}
+#laLeft{
+    margin-right: 5%;
+}
+#laRight{
+    margin-left: 5%;
+}
+
+.lattice img{
+    padding-bottom: 7%;
+    padding-top: 5%;
+}
+
+.footerMain{
+    margin:50px auto;
+    width: 500px;
+    text-align: center;
+    color: #fff;
+    font-size: 1px;
+}
+.intro_top{
+    margin-top: 100px;
+}
